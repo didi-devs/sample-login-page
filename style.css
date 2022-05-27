@@ -1,7 +1,7 @@
 body {
   border-radius: 50px;
   border-color: black;
-  background-image: url(")
+  background-color: burlywood; 
 }
 
 .card {
@@ -14,7 +14,7 @@ body {
   background: rgba(255, 255, 255, 0.089);
   padding: 20px;
   object-fit: cover;
-  background-color: rgba(245, 245, 245, )1;
+  background-color: rgba(245, 245, 245, 1);
   opacity: .2;
 }
 
