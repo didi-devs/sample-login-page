@@ -1,21 +1,32 @@
 body {
-  border-radius: 50px;
-  border-color: black;
   background-color: burlywood; 
+  border-radius: 50%;
+ 
+  
+}
+
+#image{
+  height: fit-content;
+  width: fit-content;
+  background-image: url("https://th.bing.com/th/id/OIP.iApVsqSNRuxoE1ynjRngOwHaEo?w=262&h=180&c=7&r=0&o=5&pid=1.7");
+  background-size: fit-content;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  box-shadow: 9px 4px 8px 0 rgb(29, 9, 9);
+
   height: 80vh;
-  width: 300px;
+  width: fit-content;
+  block-size: fit-content;
   margin: 0 auto;
   align-content: center;
   text-align: center;
   background: rgba(255, 255, 255, 0.089);
   padding: 20px;
   object-fit: cover;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: rgba(245, 245, 245, 0.315);
   opacity: .2;
+  justify-content: center;
 }
 
 .card-holder {
@@ -29,6 +40,8 @@ body {
 h6{
    text-align:left;
 }
+
+
 
 
 
