@@ -1,0 +1,86 @@
+
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Webpage design</title>
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Webpage design_files/style.css"><link href="./Webpage design_files/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="./Webpage design_files/bootstrap-icons.css"></head><body class="hold-transition login-page"><div>
+    
+
+    <h2> </h2>
+    <div id="image">
+    <div class="card-holder">
+        <div class="card">
+        <div class="container">
+                <h2 style="text-align: center; color: rgb(0, 0, 0);">Login Form</h2>
+        
+        <div class="register-box-body">
+        <p class="login-box" style="color: rgb(0, 0, 0);">Register a  new member</p>
+    
+        <form action="http://127.0.0.1:5500/index.html" method="post" style="align-items: center;">
+            <div>
+                <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div>
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+        </form>
+        <h6>Forgot Password?</h6>
+        <button type="button" class="btn btn-info block">LOGIN</button>
+        <p>or login with</p>
+    
+        <button type="button" class="btn btn-info">     <span class="bi bi-facebook"></span> facebook</button>
+        
+        <button type="button" class="btn btn-danger"><span class="bi bi-google"></span> google</button>
+    
+        <p>Don't have account? <a href="http://127.0.0.1:5500/#"><u>Sign Up</u></a></p>
+    </div>
+    </div></div>
+    </div>
+    </div>
+    
+
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    </div>
+</body></html>
