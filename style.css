@@ -1,15 +1,15 @@
 body {
-  border-radius: 50%;
+  size: fit-content;
   
   
 }
+ 
 
 #image{
   background-image: url("https://th.bing.com/th/id/OIP.uDtwbgOqOMwMh3PfhjJH0gHaEo?w=302&h=187&c=7&r=0&o=5&pid=1.7");
-  resize: both;
-  overflow: auto;
-  background-size: cover;
+  background-size: contain;
   opacity: 0.9;
+
 
 }
 
